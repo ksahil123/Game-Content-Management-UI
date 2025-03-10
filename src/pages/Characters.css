@@ -1,0 +1,53 @@
+.characters-container {
+    padding: 20px;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+ .character-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  
+  .character-tile {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .character-tile:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .rarity.common {
+    color: gray;
+  }
+  
+  .rarity.rare {
+    color: blue;
+  }
+  
+  .rarity.epic {
+    color: purple;
+  }
+  
+  .stars {
+    color: gold;
+  }
+  
